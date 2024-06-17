@@ -1,0 +1,49 @@
+:root {
+    --menu-container-color: rgb(0, 0, 0, 0.5);
+    --menu-item-color: rgb(38, 52, 120, 0.7);
+    --menu-item-color-active: rgb(38, 52, 120);
+    --text-color: aliceblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+
+    background-image: url("./main.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+  }
+  
+  header {
+    background-color: var(--menu-container-color);
+    color: var(--text-color);
+    text-align: center;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .content {
+    padding: 5px 20px 5px 20px;
+    background-color: var(--menu-container-color);
+    border-radius: 10px;
+    color: var(--text-color) !important;
+    margin: 5px 5px 5px 5px;
+}
+
+table {
+    color: var(--text-color) !important;
+}
+  
+.event-card {
+  background-color: var(--menu-item-color);
+  border-radius: 5px;
+  margin-top: 5px;
+}
